@@ -1,15 +1,51 @@
+.body {
+  padding-left: 50px;
+  padding-right: 50px;
+}
 #header {
   text-align: center;
   margin-top: 50px;
   margin-bottom: 50px;
 }
 
+#pr1 {
+  text-align: center;
+}
+
+#fotoparagraf {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 50px;
+  gap: 100px;
+}
+
+#pr2 {
+  text-align: right;
+}
+
 #Selfie {
   display: block;
   margin-left: auto;
-  margin-right: auto;
   border-radius: 20%;
   box-shadow: 3px 3px 10px gray;
-  margin-top: 15px;
-  margin-bottom: 15px;
+}
+
+#müzik {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  align-items: center;
+  margin-top: 25px;
+}
+
+#text {
+  max-width: 300px;
+  text-align: center;
+  flex: 1;
+}
+
+#pr3 {
+  text-align: center;
+  margin: 0;
 }

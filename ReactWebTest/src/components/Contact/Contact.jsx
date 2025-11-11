@@ -4,37 +4,31 @@ import "./Contact.css";
 function Contact() {
   return (
     <>
-      <button
-        id="Insta"
-        onClick={() =>
-          window.open("https://www.instagram.com/tunakizilirmak/", "_blank")
-        }
-      >
-        Instagram
-      </button>
-      <button
-        id="Git"
-        onClick={() => window.open("https://github.com/krattyy", "_blank")}
-      >
-        GitHub
-      </button>
-      <button
-        id="Linkedin"
-        onClick={() =>
-          window.open("https://www.linkedin.com/in/tunakizilirmak/", "_blank")
-        }
-      >
-        LinkedIn
-      </button>
-      <button
-        id="Whatsapp"
-        onClick={() => window.open("https://wa.me/905426938003", "_blank")}
-      >
-        WhatsApp
-      </button>
+      <div className="icons">
+        <i
+          className="fa fa-instagram"
+          onClick={() =>
+            window.open("https://www.instagram.com/tunakizilirmak/", "_blank")
+          }
+        ></i>
+        <i
+          className="fa fa-github"
+          onClick={() => window.open("https://github.com/krattyy", "_blank")}
+        ></i>
+        <i
+          className="fa fa-linkedin"
+          onClick={() =>
+            window.open("https://www.linkedin.com/in/tunakizilirmak/", "_blank")
+          }
+        ></i>
+        <i
+          className="fa fa-whatsapp"
+          onClick={() => window.open("https://wa.me/905426938003", "_blank")}
+        ></i>
+      </div>
 
       <p id="copyright">
-        Copyright © Tuna Enes Kızılırmak 2023. Tüm hakları saklıdır.
+        Copyright © Tuna Enes Kızılırmak 2025. Tüm hakları saklıdır.
       </p>
     </>
   );
