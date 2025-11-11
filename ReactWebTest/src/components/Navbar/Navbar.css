@@ -1,5 +1,4 @@
 .navbar {
-  background-color: black;
   justify-content: space-between;
   align-items: center;
   display: flex;
@@ -10,6 +9,7 @@
   top: 0;
   left: 0;
   right: 0;
+  z-index: 1000;
 }
 
 .sagicin {

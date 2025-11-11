@@ -4,8 +4,15 @@ import "./VideoBackground.css";
 
 export default function VideoBackground() {
   return (
-    <>
-      <video src={backgroundVideo} autoPlay loop muted></video>
-    </>
+    <div className="video-bg" aria-hidden="true">
+      <video
+        className="video-bg__media"
+        src={backgroundVideo}
+        autoPlay
+        loop
+        muted
+        playsInline
+      />
+    </div>
   );
 }
