@@ -9,7 +9,7 @@ function Portfolio() {
       <div className="portfolioContainer">
         <div className="qrGenerator">
           <Link
-            to="/portfolyo/qrgenerator" // App.jsx ile birebir aynı
+            to="/portfolyo/qrgenerator"
             id="qrgenerator"
             className="cursor-pointer"
           >
@@ -19,7 +19,13 @@ function Portfolio() {
         </div>
 
         <div className="weatherApp">
-          <h3>Hava Durumu Uygulaması</h3>
+          <Link
+            to="/portfolyo/weatherapp"
+            id="weatherapp"
+            className="cursor-pointer"
+          >
+            Hava Durumu Uygulaması
+          </Link>
           <p>API kullanarak hava durumu bilgilerini gösteren uygulama.</p>
         </div>
 

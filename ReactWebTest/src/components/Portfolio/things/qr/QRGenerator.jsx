@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { QRCodeSVG } from "qrcode.react";
-import "./qrgenerator.css";
+import "./QRGenerator.css";
 
 export default function QRGenerator() {
   const [text, setText] = useState("");
@@ -10,7 +10,7 @@ export default function QRGenerator() {
     <div className="qr-code-generator">
       <h2>QR Code Generator</h2>
       <QRCodeSVG value={qr} size={200} />
-      <p>QR kodunu oluşturmak için bir bağlantı gir:</p>
+      <p>QR kod için bir bağlantı gir:</p>
       <input
         type="text"
         placeholder="https://ornek.com"
