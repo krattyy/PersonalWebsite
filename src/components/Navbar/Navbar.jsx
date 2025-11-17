@@ -18,7 +18,7 @@ export default function Navbar() {
 
         <div className="sagicin">
           <Link
-            to="hakkimda"
+            to="/hakkimda"
             smooth={true}
             duration={500}
             id="hakkimda"
@@ -28,7 +28,7 @@ export default function Navbar() {
           </Link>
 
           <Link
-            to="portfolyo"
+            to="/portfolyo"
             smooth={true}
             duration={500}
             id="yaptiklarim"
@@ -38,7 +38,7 @@ export default function Navbar() {
           </Link>
 
           <Link
-            to="iletisim"
+            to="/iletisim"
             smooth={true}
             duration={500}
             id="iletisim"
