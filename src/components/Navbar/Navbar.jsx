@@ -7,7 +7,7 @@ export default function Navbar() {
     <>
       <nav className="navbar">
         <Link
-          to="/krattydevpage/"
+          to="/"
           smooth={true}
           duration={500}
           id="mainNav"
@@ -18,7 +18,7 @@ export default function Navbar() {
 
         <div className="sagicin">
           <Link
-            to="/krattydevpage/hakkimda"
+            to="hakkimda"
             smooth={true}
             duration={500}
             id="hakkimda"
@@ -28,7 +28,7 @@ export default function Navbar() {
           </Link>
 
           <Link
-            to="/krattydevpage/portfolyo"
+            to="portfolyo"
             smooth={true}
             duration={500}
             id="yaptiklarim"
@@ -38,7 +38,7 @@ export default function Navbar() {
           </Link>
 
           <Link
-            to="/krattydevpage/iletisim"
+            to="iletisim"
             smooth={true}
             duration={500}
             id="iletisim"
