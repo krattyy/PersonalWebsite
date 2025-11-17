@@ -15,12 +15,18 @@ function App() {
       <Video />
       <Navbar />
       <Routes>
-        <Route path="/" element={<MainPage />} />
-        <Route path="/hakkimda" element={<About />} />
-        <Route path="/portfolyo" element={<Portfolio />} />
-        <Route path="/portfolyo/qrgenerator" element={<QRGenerator />} />
-        <Route path="/portfolyo/weatherapp" element={<Weather />} />
-        <Route path="/iletisim" element={<Contact />} />
+        <Route path="/krattydevpage" element={<MainPage />} />
+        <Route path="/krattydevpage/hakkimda" element={<About />} />
+        <Route path="/krattydevpage/portfolyo" element={<Portfolio />} />
+        <Route
+          path="/krattydevpage/portfolyo/qrgenerator"
+          element={<QRGenerator />}
+        />
+        <Route
+          path="/krattydevpage/portfolyo/weatherapp"
+          element={<Weather />}
+        />
+        <Route path="/krattydevpage/iletisim" element={<Contact />} />
       </Routes>
     </Router>
   );
