@@ -1,3 +1,6 @@
+import React from "react";
+import "./MainPage.css";
+
 export default function MainPage() {
   return (
     <>
@@ -8,9 +11,8 @@ export default function MainPage() {
             meraklısıyım.
           </p>
           <p>
-            Okuduğum bölüm ve sektörden pek memnun kalmadığım için bu sektöre
-            yöneldim. Bazı kurslar alarak hem temelleri öğrendim, hem de anlık
-            olarak kendimi geliştiriyorum.
+            Kendimi tanıtmak için oluşturduğum bu web sitesinde, projelerimi,
+            becerilerimi ve iletişim bilgilerimi bulabilirsiniz.
           </p>
         </div>
       </div>

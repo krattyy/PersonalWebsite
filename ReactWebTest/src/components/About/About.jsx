@@ -67,16 +67,87 @@ export default function Hakkimda() {
           <div id="right-iframe">
             <iframe
               id="nutshell"
-              src="https://open.spotify.com/embed/track/2JuasWPUodaUxf5nwNpciQ?utm_source=generator"
+              data-testid="embed-iframe"
               style={{ borderRadius: "12px" }}
+              src="https://open.spotify.com/embed/track/2JuasWPUodaUxf5nwNpciQ?utm_source=generator"
               width="300"
               height="300"
               frameBorder="0"
-              allowFullScreen
+              allowfullscreen=""
               allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
               loading="lazy"
             ></iframe>
           </div>
+        </div>
+      </div>
+      <div className="cv">
+        <h2>Özgeçmiş</h2>
+        <div className="egitim">
+          <ul>
+            <h3>Eğitim</h3>
+            <li>
+              Hacettepe Üniversitesi İletişim Fakültesi İletişim Bilimleri ---
+              2019-2024
+            </li>
+            <li>
+              Anadolu Üniversitesi Açık Öğretim Fakültesi Bilgisayar
+              Programcılığı --- 2024-Günümüz
+            </li>
+          </ul>
+        </div>
+        <div className="yetenekler">
+          <ul>
+            <h3>Yetenekler</h3>
+            <li>HTML, CSS, JavaScript, React, Node.js</li>
+            <li>Python (Temel Seviye)</li>
+            <li>C# (Temel Seviye)</li>
+            <li>Temel Siber Güvenlik Bilgisi</li>
+          </ul>
+        </div>
+        <div className="diller">
+          <ul>
+            <h3>Diller</h3>
+            <li>Türkçe (Ana Dil)</li>
+            <li>İngilizce (İleri Seviye)</li>
+          </ul>
+        </div>
+        <div className="deneyimler">
+          <ul>
+            <h3>Deneyimler</h3>
+            <li>
+              Stajyer, İhlas Haber Ajansı, Ankara --- Yaz 2022 (1 Ay) - Stajyer
+              Kameraman
+            </li>
+            <li>
+              Stajyer, Tivi 6, Ankara --- İlkbahar 2023 (1 Ay) - Stüdyo
+              Kameramanı
+            </li>
+          </ul>
+        </div>
+        <div className="kurslar">
+          <ul>
+            <h3>Aldığım Kurslar</h3>
+            <li>
+              Udemy, The Complete Full-Stack Web Development Bootcamp, Dr.
+              Angela Yu
+            </li>
+            <li>
+              Udemy, C# Kursu: Yeni Başlayanlar için C# Programlama Dersleri,
+              Sadık Turan
+            </li>
+            <li>Udemy, Etik Hacker Olma Kursu, Atıl Samancıoğlu</li>
+            <li>
+              AI for Everyone, Hacettepe Üniversitesi Yapay Zeka Topluluğu
+            </li>
+            <li>
+              Makine Öğrenmesi Eğitimi, Hacettepe Üniversitesi Yapay Zeka
+              Topluluğu
+            </li>
+            <li>
+              Python İle Programlamaya Giriş Eğitimi, Hacettepe Üniversitesi
+              Yapay Zeka Topluluğu
+            </li>
+          </ul>
         </div>
       </div>
     </div>
